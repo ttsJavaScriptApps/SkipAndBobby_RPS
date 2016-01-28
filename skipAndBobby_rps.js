@@ -12,6 +12,7 @@ var player2 = {
   getHand: getHand
 }
 function playRound(player1, player2) {
-  player1.getHand(hands);
-  player2.getHand(hands);
+  console.log("player 1 chooses " + player1.getHand(hands));
+  console.log("player 2 chooses " + player2.getHand(hands));
 }
+console.log(playRound(player1, player2));
