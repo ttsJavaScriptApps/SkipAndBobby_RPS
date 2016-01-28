@@ -11,3 +11,6 @@ var player2 = {
   name: 'Skip',
   getHand: getHand
 }
+function playRound(player1, player2) {
+  
+}
